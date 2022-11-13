@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "362106549876",
+    "project_id": "notes-taking-app-d53c3",
+    "storage_bucket": "notes-taking-app-d53c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362106549876:android:6ccf935cbabf5452de8321",
+        "android_client_info": {
+          "package_name": "com.example.notes_taking_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362106549876-aij80st9gomisf2qhbt4sq4stuti4jos.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.notes_taking_app",
+            "certificate_hash": "d49f9ae03ec49a960ff2ea144305831b80345976"
+          }
+        },
+        {
+          "client_id": "362106549876-ke5g8qhms9bf8nmg2eht1l52uttiipcm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVl5BWIA8HqpA07yd5tCj1vA51oU2Saww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362106549876-ke5g8qhms9bf8nmg2eht1l52uttiipcm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
