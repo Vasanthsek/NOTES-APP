@@ -76,12 +76,7 @@ class _EditTaskState extends State<EditTask> {
                   height: 50,
                   child: ElevatedButton(
                     style: ButtonStyle(backgroundColor:
-                        MaterialStateProperty.resolveWith<Color>(
-                            (Set<MaterialState> states) {
-                      if (states.contains(MaterialState.pressed))
-                        return Colors.purple.shade100;
-                      return Theme.of(context).primaryColor;
-                    })),
+                        MaterialStateProperty.all(Theme.of(context).primaryColor),),
                     child: Text(
                       'Update Task',
                       style: GoogleFonts.roboto(fontSize: 18),

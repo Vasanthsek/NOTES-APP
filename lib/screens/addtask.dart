@@ -63,13 +63,9 @@ class _AddTaskState extends State<AddTask> {
                   width: double.infinity,
                   height: 50,
                   child: ElevatedButton(
-                    style: ButtonStyle(backgroundColor:
-                        MaterialStateProperty.resolveWith<Color>(
-                            (Set<MaterialState> states) {
-                      if (states.contains(MaterialState.pressed))
-                        return Colors.purple.shade100;
-                      return Theme.of(context).primaryColor;
-                    })),
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all(Theme.of(context).primaryColor),
+                    ),
                     child: Text(
                       'Add Task',
                       style: GoogleFonts.roboto(fontSize: 18),
